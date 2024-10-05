@@ -4,7 +4,6 @@
 
 Tenzy is a fun and interactive dice-rolling game built with React. The objective is to roll all the dice until they show the same number. Click on the dice to freeze their values between rolls. Keep track of your rolls and time, and try to beat your best score!
 
-![Tenzy Game Screenshot](path/to/your/screenshot.png)
 
 ## Features
 
