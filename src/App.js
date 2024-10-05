@@ -17,7 +17,6 @@ export default function App() {
   );
 
   React.useEffect(() => {
-
     const allHeld = dice.every((die) => die.isHeld);
     const allSameValue = dice.every((die) => die.value === dice[0].value);
     if (allHeld && allSameValue) {
@@ -26,8 +25,11 @@ export default function App() {
 
       setRecords();
     }
-  }, [dice]);
+  }, [dice, setRecords]);
 
+  
+
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   function setRecords() {
 
     if (!bestRolls || rolls < bestRolls) {
